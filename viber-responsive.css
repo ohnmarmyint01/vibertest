@@ -1,0 +1,359 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav{
+    width: 100%;
+}
+.navbar{
+    max-width: 1500px;
+    width: 100%;
+    height: 80px;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-between; 
+}
+.navbar div:nth-child(2) a:hover{
+    color: black;
+}
+.nav .navbar  div {
+    display: flex;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+h3{
+    margin-left: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+}
+.navbar div:nth-child(2) a{
+    text-decoration: none;
+    color: grey;
+}
+button{
+    padding: 8px;
+    border-radius: 15px;
+    background-color: transparent;
+    margin-right: 10px;
+    border: 1px solid blueviolet;
+    color: blueviolet;
+}
+.btn i{
+    display: none;
+}
+.group1{
+    height: 500px;
+    background-image: url(./viber/viber-image1.jpg);
+
+    
+}
+.sticker1{
+    padding: 50px 40px;
+    font-size: 45px;
+    color: rgb(41, 57, 10);
+    width: 70%;
+
+}
+.sticker1 :last-child{
+    background-color: green;
+    border: none;
+    padding: 20px;
+    border-radius: 30px;
+    margin-top: 50px;
+}
+.group1 .sticker1 p{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.heading{
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.text1{
+    font-size: 50px;
+}
+img{
+    width: 100%;
+    height: 200px;
+}
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* padding: 50px; */
+    gap: 30px;
+}
+.card1{
+    width: 300px;
+    height: 300px;
+}
+h4{
+    text-align: center;
+    margin: 20px;
+}
+.group2 p, .card3 .heading p{
+    text-align: center;
+    margin: 15px;
+}
+.btn-1{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+.group2 :last-child button{
+    border-radius: 25px;
+    padding: 10px;
+    border: 1px solid blueviolet;
+    color: blueviolet;
+}
+.text2{
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.group3{
+    display: flex;
+    background-color: rgb(220, 210, 210);
+    
+}
+.card3{
+    flex: 1;
+    margin: 150px 50px;
+    
+}
+.card2{
+    flex: 1;
+    height: 500px;
+    
+}
+.card2 img{
+    height: 100%;
+    width: 100%
+}
+.card3 button{
+    border-radius: 25px;
+    padding: 10px;
+    border: 1px solid blueviolet;
+    color: blueviolet;
+    margin-top: 20px;
+
+}
+.card3 p{
+    margin: 10px;
+    
+}
+.group4{
+    display: flex;
+    background-color: rgba(248, 238, 238, 0.898);
+    flex-direction: row-reverse;
+    
+}
+.card5{
+    flex: 1;
+    margin: 150px 50px;
+    
+}
+.card4{
+    flex: 1;
+    height: 500px;
+    
+}
+.card4 img{
+    height: 100%;
+    width: 100%
+}
+.card5 button{
+    border-radius: 25px;
+    padding: 10px;
+    border: 1px solid blueviolet;
+    color: blueviolet;
+    margin-top: 20px;
+
+}
+.card5 p{
+    margin: 10px;
+}
+.group5{
+    text-align: center;
+}
+.group5 img{
+    width: 50px;
+    height: 50px;
+    margin-top: 50px;
+}
+.group5 button{
+    background-color: green;
+    border: none;
+    padding: 15px;
+    border-radius: 30px;
+    margin-bottom: 50px;
+}
+.group5 .text3{
+    padding: 15px;
+    font-size: 30px;
+}
+.group6{
+    background-color: blueviolet;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.gp1{
+    display: flex;
+    flex-direction: column;
+    margin: 40px 40px;
+    gap: 5px;
+    
+}
+.group6 .gp1 a{
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+.group6 .gp1 a:hover{
+    text-decoration: underline;
+}
+h5{
+    font-size: 15px;
+    margin-bottom: 10px;
+    color: gray;
+}
+select{
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+}
+.icon1{
+    font-size: 25px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+.icon1:hover{
+    color: gray;
+}
+.icon{
+    color: white;
+}
+.group7{
+    display: flex;
+    margin: 30px auto;
+}
+.group7 .logo{
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 20px;
+    color: indigo;
+}
+.rakuten{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    align-items: center;
+}
+.rakuten a{
+    text-decoration: none;
+    /* padding-left: 20px; */
+    color: gray;
+    margin-left: 10px;
+    padding: 10px;
+    /* cursor: pointer; */
+}
+.rakuten a:hover{
+    color: darkgrey;
+}
+button:hover{
+    background-color: lightgrey;
+}
+
+
+
+@media (max-width:600px) {
+    .navbar div:nth-child(2) a{
+        display: none;
+    }
+    
+    .btn button{
+        display: none;
+    }
+    .btn i{
+        display: block;
+        margin-right: 10px;
+        cursor: pointer;
+    }
+    .sticker1{
+        margin: auto;
+        font-size: 30px;
+        width: 100%;
+        
+    }
+    .group1{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+    .card1{
+    width: 50%;
+    height: 300px;
+    margin: 50px;
+}
+.group3{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.card2 img{
+    height: 400px;
+    margin-top: 50px;
+}
+.card3 {
+    text-align: center;
+    margin-top: 100px;
+}
+.group4{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.card4 img{
+    height: 400px;
+    margin-top: 50px;
+}
+.card5{
+    text-align: center;
+    margin-top: 100px;
+}
+.gp1{
+    width: calc(40%);
+    margin-left: 10px;
+
+}
+.group7{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.group7 .logo{
+    text-align: center;
+    margin: 20px auto;
+}
+.rakuten a{
+    padding: 5px;
+}
+}
+@media (min-width:1200px){
+    .group6{
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+    }
+    .group7{
+        display: flex;
+        justify-content: center;
+    }
+  
+    
+}
